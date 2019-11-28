@@ -1,1 +1,1 @@
-web: python qr_generate.py
+web: gunicorn qr_generate.py
